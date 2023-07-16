@@ -8,7 +8,7 @@ public class RideBillCalculator {
   System.out.println("Put your height");
   int height = sc.nextInt();
   int rideBill = 0;
-  if (height > 120 ) {
+  if (height < 120 ) {
    System.out.println(" can't  ride");
   }
   else {
