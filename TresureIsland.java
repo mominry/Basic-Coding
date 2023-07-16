@@ -14,23 +14,6 @@ class TresureIsland{
 			if(secondChoice.equalsIgnoreCase("wait")){
 				System.out.println("which door red blue or yellow");
 				thirdChoice = sc.next().toLowerCase();
-				/*if(thirdChoice.equalsIgnoreCase("red")){
-					System.out.println("burned by fire game over");
-				}
-				if(thirdChoice.equalsIgnoreCase("blue")){
-					System.out.println("eaten by pest");
-				
-				
-				}
-				if(thirdChoice.equalsIgnoreCase("yellow")){
-					System.out.println("you win");
-				
-				
-				}
-				else{
-					System.out.println("game over");
-				}
-				*/
 				
 				switch(thirdChoice){
 					case "blue":
